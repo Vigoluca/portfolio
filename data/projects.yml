@@ -1,17 +1,17 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Kotoback
+  description: Turn your epub ebooks into flashcards to learn languages.
+  image: projects/kotoback-homepage.png
+  url: https://www.kotoback.net
 
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Haunted Tours
+  description: Spooky tours ideas based on the Airbnb model
+  image: projects/haunted-tours-homepage.png
+  url: https://github.com/Vigoluca/haunted-tours
 
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Watchlist
+  description: Create your personalized lists where movies can be organized as you wish
+  image: projects/watchlist-homepage.png
+  url: https://github.com/Vigoluca/rails-watch-list
 
 - name: Final project
   description: Decent description of the app
