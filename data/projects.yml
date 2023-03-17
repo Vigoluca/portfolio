@@ -13,7 +13,7 @@
   image: projects/watchlist-homepage.png
   url: https://github.com/Vigoluca/rails-watch-list
 
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Personal Introduction
+  description: A simple self introduction page
+  image: projects/profile.png
+  url: https://vigoluca.github.io/short-intro/
