@@ -1,17 +1,27 @@
 // Specific CSS for your home-page
 body {
-  background-color: #222831;
+  background-color: #0F0F0F;
 
 }
 
 h1,
 h2,
 i {
-  color: #00FFD1;
+  color: #00FFAB;
+}
+
+.big-header {
+  font-size: 80px;
+}
+
+.small-header {
+  font-size: 50px;
 }
 
 .card-product {
-  border: 2px solid #00FFD1;
+
+  box-shadow: 2px 2px 2px;
+  border-radius: 4px;
 }
 
 .card-product-infos h2 {
