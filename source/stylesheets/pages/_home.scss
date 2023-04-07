@@ -85,6 +85,15 @@ section {
   justify-content: center;
   transform: translateY(-50%);
 
+  .active-btn {
+    background-color: #39B5E0 !important;
+    transition: all .4s ease-in-out;
+
+    i {
+      color: white;
+    }
+  }
+
   .control {
     padding: 1rem;
     cursor: pointer;
