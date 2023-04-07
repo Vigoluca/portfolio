@@ -1,4 +1,3 @@
-// This is where it all goes :)
 const sections = document.querySelectorAll('.section');
 const secBtns = document.querySelectorAll('.controls');
 const secBtn = document.querySelectorAll('.control');
