@@ -7,7 +7,92 @@
 }
 
 body {
+  color: #39B5E0;
   background-color: #0F0F0F;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.1rem;
+  transition: all .4s ease-in-out;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+header {
+  height: 100vh;
+  color: #39B5E0;
+  overflow: hidden;
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 3rem 18rem;
+}
+
+.section {
+  transform: translateY(-100%);
+  transition: all .4s ease-in-out;
+  background-color: #0F0F0F;
+}
+
+.sec1 {
+  display: none;
+  transform: translateY(0) scale(1);
+
+}
+
+.sec2 {
+  display: none;
+  transform: translateY(0) scale(1);
+
+}
+
+.sec3 {
+  display: none;
+  transform: translateY(0) scale(1);
+
+}
+
+.sec4 {
+  display: none;
+  transform: translateY(0) scale(1);
+
+}
+
+.sec5 {
+  display: none;
+  transform: translateY(0) scale(1);
+
+}
+
+
+// Controls
+.controls {
+  position: fixed;
+  z-index: 10;
+  top: 50%;
+  right: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+
+  .control {
+    padding: 1rem;
+    cursor: pointer;
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+  }
 }
 
 .top-page {
@@ -17,7 +102,7 @@ body {
 
 #about,
 #neon-header {
-  color: #00FFAB;
+  color: #39B5E0;
   text-align: center;
   margin-bottom: 30px;
 }
