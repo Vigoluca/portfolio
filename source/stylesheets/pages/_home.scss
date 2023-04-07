@@ -51,27 +51,31 @@ section {
 .sec2 {
   display: none;
   transform: translateY(0) scale(1);
-
+  background-color: aquamarine;
 }
 
 .sec3 {
   display: none;
   transform: translateY(0) scale(1);
-
+  background-color: beige;
 }
 
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
-
+  background-color: yellow;
 }
 
 .sec5 {
   display: none;
   transform: translateY(0) scale(1);
+  background-color: darkblue;
 
 }
 
+.active {
+  display: block;
+}
 
 // Controls
 .controls {
