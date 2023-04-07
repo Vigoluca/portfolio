@@ -92,6 +92,16 @@ section {
     width: 55px;
     height: 55px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .7rem 0;
+    box-shadow: 0 1px 15px white;
+
+    i {
+      font-size: 1.2rem;
+      pointer-events: none;
+    }
   }
 }
 
