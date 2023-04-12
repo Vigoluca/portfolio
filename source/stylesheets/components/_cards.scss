@@ -8,10 +8,13 @@
   overflow: hidden;
   height: 120px;
   background: white;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 2px gray;
   display: flex;
   align-items: center;
+  border-radius: 4px;
 }
+
+
 
 .card-product img {
   height: 100%;
@@ -35,6 +38,7 @@
 
 .card-product .card-product-infos {
   padding: 16px;
+
   &:hover {
     .external-link {
       opacity: 1;
@@ -42,11 +46,16 @@
   }
 }
 
+.card-product-infos h2 {
+  color: black;
+}
+
 .external-link {
   margin-left: 8px;
   opacity: 0;
   color: $gray;
   transition: opacity 1s;
+
   &:hover {
     cursor: pointer;
     color: $gray
@@ -58,6 +67,7 @@
   .cards {
     grid-template-columns: 1fr;
   }
+
   .external-link {
     opacity: 1;
   }
@@ -68,6 +78,7 @@
   .cards {
     grid-template-columns: 1fr;
   }
+
   .external-link {
     opacity: 1;
   }
@@ -78,6 +89,7 @@
   .cards {
     grid-template-columns: 1fr 1fr;
   }
+
   .external-link {
     opacity: 0;
   }
