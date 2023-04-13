@@ -7,8 +7,8 @@
 }
 
 body {
-  color: #39B5E0;
-  background-color: #0F0F0F;
+  color: #C9CAD9;
+  background-color: #FCF7F8;
   font-family: 'Rubik', sans-serif;
   font-size: 1.1rem;
   transition: all .4s ease-in-out;
@@ -23,7 +23,7 @@ a {
 
 header {
   height: 100vh;
-  color: #39B5E0;
+  color: #A31621;
   overflow: hidden;
 }
 
@@ -101,18 +101,19 @@ section {
   transform: translateY(-50%);
 
   .active-btn {
-    background-color: #39B5E0 !important;
+    background-color: #A31621 !important;
     transition: all .4s ease-in-out;
 
     i {
-      color: white;
+      color: #FCF7F8;
     }
   }
 
   .control {
     padding: 1rem;
     cursor: pointer;
-    background-color: white;
+    color: #FCF7F8;
+    background-color: #CED3DC;
     width: 55px;
     height: 55px;
     border-radius: 50%;
@@ -120,7 +121,7 @@ section {
     justify-content: center;
     align-items: center;
     margin: .7rem 0;
-    box-shadow: 0 1px 15px white;
+    box-shadow: 0 1px 15px #A6A2A2;
 
     i {
       font-size: 1.2rem;
@@ -146,16 +147,15 @@ section {
       position: absolute;
       width: 100%;
       height: 100vh;
-      background-color: #18435A;
-      clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+      background-color: #A31621;
+      clip-path: polygon(100% 0, 0 0, 0 100%);
       z-index: -1;
     }
 
     #profile-picture {
       height: 60%;
       width: 60%;
-      margin-left: 11rem;
-      margin-bottom: 9rem;
+      margin-left: 10rem;
       transition: all .4s ease-in-out;
 
       img {
@@ -196,20 +196,25 @@ section {
 
 
 .top-right {
-  margin-top: 12rem;
   margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   h2 {
-    color: azure;
-    margin-right: 30px;
+    color: #A6A2A2;
+    text-shadow: 0 1px 1px;
   }
 
 
   span {
-    color: #39B5E0;
+    color: #A31621;
+
   }
 
   p {
-    color: azure;
+    color: #A6A2A2;
+    line-height: 2rem;
+    text-shadow: 0 1px 1px;
   }
 }
