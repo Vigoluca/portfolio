@@ -1,15 +1,19 @@
-<div class="row my-5">
-  <div class="col-12">
-    <div class="container top-page">
-      <div id="about">
-        <p>Ciao everyone, I'm</p>
-        <h1 class="big-header">Luca Vigotti </h1>
-        <h1 class="small-header">Front-End Developer</h1>
-        <p>I'm passionate about design and aim at expressing myself through it.</p>
-      </div>
-      <div id="profile-picture">
-        <%= image_tag 'profile-picture.JPG', alt: "profile photo", class:"profile-picture" %>
-      </div>
+<div class="top-page">
+  <div class="top-left">
+    <div class="top-left-shape"></div>
+    <div id="profile-picture">
+      <%= image_tag 'profile-picture.JPG', alt: "profile photo"%>
     </div>
+  </div>
+  <div class="top-right">
+    <div class="top-right-shape"></div>
+    <h2>Hello everyone. I'm <span>Luca Vigotti</span>,<br>
+      a <span>Front-End Developer</span>.
+    </h2>
+    <p>I'm passionate about designing and creating web applications</p>
+    <a href="" class="download-btn">
+      <span class="btn-text">Download CV</span>
+      <span class ="btn-icon"><i class="fa-solid fa-download"></i></span>
+    </a>
   </div>
 </div>
