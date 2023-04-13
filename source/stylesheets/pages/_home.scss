@@ -39,7 +39,7 @@ section {
 .section {
   transform: translateY(-100%);
   transition: all .4s ease-in-out;
-  background-color: khaki;
+
 }
 
 .sec1 {
@@ -51,25 +51,25 @@ section {
 .sec2 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: #0F0F0F;
+
 }
 
 .sec3 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: beige;
+
 }
 
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: yellow;
+
 }
 
 .sec5 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: darkblue;
+
 
 }
 
@@ -134,23 +134,26 @@ section {
   justify-content: space-between;
 }
 
+#about p {
+  color: aliceblue;
+}
+
 #about,
 #neon-header {
   color: #39B5E0;
-  text-align: center;
   margin-bottom: 30px;
 }
 
 .big-header {
-  font-size: 100px;
+  font-size: 80px;
 }
 
 .small-header {
-  font-size: 55px;
+  font-size: 45px;
 }
 
 #profile-picture {
-  margin-left: 100px;
+  margin-right: 30px;
 }
 
 .profile-picture {
