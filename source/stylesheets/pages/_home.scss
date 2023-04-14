@@ -217,4 +217,25 @@ section {
     line-height: 2rem;
     text-shadow: 0 1px 1px;
   }
+
+}
+
+.download-btn {
+  margin-top: 3rem;
+  margin-left: 10rem;
+}
+
+.download-btn span {
+  background-color: #A31621;
+  color: #FCF7F8;
+  border-radius: 4px;
+  padding: 8px 16px;
+  transition-duration: 0.4s;
+
+}
+
+.download-btn span:hover {
+  background-color: #FCF7F8;
+  color: #A31621;
+  border: 1px solid #A31621;
 }
