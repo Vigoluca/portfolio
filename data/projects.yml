@@ -1,7 +1,7 @@
 - name: Kotoback
   description: Turn your epub ebooks into flashcards to learn languages.
   image: projects/kotoback-homepage.png
-  url: https://www.kotoback.net
+  url:
 
 - name: Haunted Tours
   description: Spooky tours ideas based on the Airbnb model
