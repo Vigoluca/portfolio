@@ -1,4 +1,4 @@
-.container {
+.about-page {
   h1 {
     text-align: center;
     color: #A6A2A2;
@@ -7,5 +7,39 @@
     span {
       color: #A31621;
     }
+  }
+
+  p {
+    text-align: justify;
+    transition: all .4s ease-in-out;
+  }
+}
+
+.about {
+  color: #A6A2A2;
+  text-shadow: 0 1px 1px;
+}
+
+.skills {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  h1 {
+    text-align: center;
+    color: #A6A2A2;
+    text-shadow: 0 1px 1px;
+  }
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 2rem 10rem;
+  justify-content: space-evenly;
+  transition: all .4s ease-in-out;
+
+  img {
+    width: 100px;
   }
 }
