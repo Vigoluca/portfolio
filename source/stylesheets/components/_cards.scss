@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px 15px;
+  overflow: hidden;
 }
 
 .card-product {
@@ -15,6 +16,7 @@
   align-items: center;
   border-radius: 4px;
   position: relative;
+  overflow: hidden;
 
   .title {
     background-color: #FCF7F8;
@@ -114,6 +116,11 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+
+  html {
+    overflow-y: scroll;
+  }
+
   .cards {
     grid-template-columns: 1fr 1fr;
   }
