@@ -1,19 +1,14 @@
+- name: Hidden Nerima
+  description: A website to help you discover the hidden gems of Nerima Ward.
+  image: projects/hidden-nerima/hidden-nerima-home.png
+  url: /hidden-nerima.html
+
 - name: Kotoback
   description: Turn your epub ebooks into flashcards to learn languages.
   image: projects/kotoback-homepage.png
-  url:
+  url: /kotoback.html
 
 - name: Haunted Tours
-  description: Spooky tours ideas based on the Airbnb model
+  description: Spooky tours ideas based on the Airbnb model.
   image: projects/haunted-tours-homepage.png
-  url: https://github.com/Vigoluca/haunted-tours
-
-- name: Watchlist
-  description: Create your personalized lists where movies can be organized as you wish
-  image: projects/watchlist-homepage.png
-  url: https://github.com/Vigoluca/rails-watch-list
-
-- name: Personal Introduction
-  description: A simple self introduction page
-  image: projects/profile.png
-  url: https://vigoluca.github.io/short-intro/
+  url: /haunted-tours.html
