@@ -1,9 +1,17 @@
-.projects-page {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+#portfolio {
 
   h1 {
     text-align: center;
     color: #A6A2A2;
     text-shadow: 0 1px 1px;
+    margin-bottom: 2rem;
 
     span {
       color: #A31621;
