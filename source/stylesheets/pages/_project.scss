@@ -5,6 +5,7 @@
   list-style: none;
 }
 
+
 #portfolio {
 
   h1 {
@@ -29,4 +30,47 @@
   span {
     color: #A31621;
   }
+}
+
+.project-description,
+.project-content {
+  text-align: justify;
+  text-shadow: 0 1px 1px;
+  color: #A6A2A2;
+
+  span {
+    color: #A31621;
+    font-size: 25px;
+  }
+}
+
+.project-content {
+  margin: 2rem auto;
+}
+
+.step {
+  margin: 8rem auto;
+  display: flex;
+  align-items: center;
+}
+
+.screenshot {
+  margin: 0px 25px;
+
+  img {
+    width: 600px;
+    height: 278px;
+  }
+}
+
+.reveal {
+  position: relative;
+  transform: translate(0px) !important;
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
 }
