@@ -5,10 +5,10 @@
 
 - name: Kotoback
   description: Turn your epub ebooks into flashcards to learn languages.
-  image: projects/kotoback-homepage.png
+  image: projects/kotoback/kotoback-homepage.png
   url: /kotoback.html
 
 - name: Haunted Tours
   description: Spooky tours ideas based on the Airbnb model.
-  image: projects/haunted-tours-homepage.png
+  image: projects/haunted-tours/haunted-tours-homepage.png
   url: /haunted-tours.html
