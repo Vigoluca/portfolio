@@ -4,17 +4,17 @@
 
   h2 {
     text-align: center;
-    color: #A6A2A2;
+    color: var(--color-text);
     text-shadow: 0 1px 1px;
 
     span {
-      color: #A31621;
+      color: var(--color-red);
     }
   }
 
   h4,
   p {
-    color: #A6A2A2;
+    color: var(--color-text);
     text-shadow: 0 1px 1px;
   }
 }
@@ -28,7 +28,6 @@
 
     h4 {
       margin-top: 1rem;
-      font-size: 2rem;
     }
 
     p {
@@ -55,8 +54,8 @@
         border: none;
         width: 100%;
         resize: none;
-        color: #FCF7F8;
-        background-color: #A31621;
+        color: var(--color-bg);
+        background-color: var(--color-red);
 
       }
     }
@@ -72,5 +71,5 @@
 }
 
 ::placeholder {
-  color: #FCF7F8;
+  color: var(--color-bg);
 }

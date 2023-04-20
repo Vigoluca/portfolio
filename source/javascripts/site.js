@@ -12,9 +12,9 @@ const bodySection = document.querySelectorAll('.main-content');
       document.getElementById(button.dataset.id).classList.add("active");
     })
   });
-  // document.querySelector(".theme-btn").addEventListener("click", () => {
-  //   document.body.classList.toggle("light-mode");
-  //   })
+  document.querySelector(".dark-mode").addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+  })
 })();
 
 window.addEventListener('scroll', reveal);

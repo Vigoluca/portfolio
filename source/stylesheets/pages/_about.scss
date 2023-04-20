@@ -9,11 +9,11 @@
 
   h2 {
     text-align: center;
-    color: #A6A2A2;
+    color: var(--color-text);
     text-shadow: 0 1px 1px;
 
     span {
-      color: #A31621;
+      color: var(--color-red);
     }
   }
 
@@ -25,7 +25,7 @@
 }
 
 .about {
-  color: #A6A2A2;
+  color: var(--color-text);
   text-shadow: 0 1px 1px;
 }
 
@@ -35,11 +35,11 @@
 
   h1 {
     text-align: center;
-    color: #A6A2A2;
+    color: var(--color-text);
     text-shadow: 0 1px 1px;
 
     span {
-      color: #A31621;
+      color: var(--color-red);
     }
   }
 }

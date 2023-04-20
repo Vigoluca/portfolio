@@ -18,13 +18,13 @@
 }
 
 .main-btn {
-  margin-top: 3rem;
-  margin-left: 14.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .main-btn span {
-  background-color: #A31621;
-  color: #FCF7F8;
+  background-color: var(--color-red);
+  color: var(--color-bg);
   border-radius: 4px;
   padding: 8px 16px;
   transition-duration: 0.4s;
@@ -32,7 +32,7 @@
 }
 
 .main-btn span:hover {
-  background-color: #FCF7F8;
-  color: #A31621;
-  border: 1px solid #A31621;
+  background-color: var(--color-bg);
+  color: var(--color-red);
+  border: 1px solid var(--color-red);
 }

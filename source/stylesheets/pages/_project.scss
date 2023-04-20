@@ -10,12 +10,12 @@
 
   h2 {
     text-align: center;
-    color: #A6A2A2;
+    color: var(--color-text);
     text-shadow: 0 1px 1px;
     margin-bottom: 2rem;
 
     span {
-      color: #A31621;
+      color: var(--color-red);
     }
   }
 }
@@ -25,10 +25,10 @@
   text-shadow: 0 1px 1px;
   margin-bottom: 2rem;
   margin-top: 3rem;
-  color: #A6A2A2;
+  color: var(--color-text);
 
   span {
-    color: #A31621;
+    color: var(--color-red);
   }
 }
 
@@ -36,10 +36,10 @@
 .project-content {
   text-align: justify;
   text-shadow: 0 1px 1px;
-  color: #A6A2A2;
+  color: var(--color-text);
 
   span {
-    color: #A31621;
+    color: var(--color-red);
     font-size: 25px;
   }
 }
