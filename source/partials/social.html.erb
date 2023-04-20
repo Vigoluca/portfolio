@@ -1,20 +1,33 @@
-<div class="row my-5">
-  <div class="col-12">
-    <div id="contact">
-      <div class="d-flex justify-content-center flex-wrap">
-        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+<div class="contact-container">
+  <div class="main-title">
+    <h2>Contact <span>Me</span></h2>
+  </div>
+  <div class="contact-content">
+    <div class="left-contact">
+      <h4>Contact me here</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste aliquid quis deserunt incidunt deleniti unde magnam officia, quae cupiditate tempora magni distinctio possimus neque? Ut dolore dolor esse porro sequi?</p>
+      <div class="contact-info">
+        <div class="contact-item">
           <i class="fa-solid fa-envelope"></i>
-          <%= mail_to "lvigotti@gmail.com", "", class: 'button-social-link' %>
+          <%#= mail_to "lvigotti@gmail.com", "", class: 'button-social-link' %>
+          Email
         </div>
-        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+        <div class="contact-item">
           <i class="fa-brands fa-github"></i>
-          <%= link_to "", "https://github.com/Vigoluca", target: '_blank', class: 'button-social-link' %>
+          <%#= link_to "", "https://github.com/Vigoluca", target: '_blank', class: 'button-social-link' %>
+          Check my GitHub
         </div>
-        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+        <div class="contact-item">
           <i class="fa-brands fa-linkedin"></i>
-          <%= link_to "", "https://www.linkedin.com/in/luca-vigotti/", target: '_blank', class: 'button-social-link' %>
+          <%#= link_to "", "https://www.linkedin.com/in/luca-vigotti/", target: '_blank', class: 'button-social-link' %>
+          Let's connect
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          Email
         </div>
       </div>
     </div>
+    <div class="right-contact"></div>
   </div>
 </div>

@@ -65,12 +65,12 @@
 
 .reveal {
   position: relative;
-  transform: translate(0px) !important;
+  transform: translateX(-150px) !important;
   opacity: 0;
-  transition: all 1s ease;
 }
 
 .reveal.active {
-  transform: translateY(0px);
+  transform: translateX(0px) !important;
   opacity: 1;
+  transition: all 1s ease;
 }
