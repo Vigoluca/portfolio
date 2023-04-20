@@ -1,8 +1,76 @@
+.contact-container {
+  height: 100vh;
+  overflow: hidden;
+
+  h2 {
+    text-align: center;
+    color: #A6A2A2;
+    text-shadow: 0 1px 1px;
+
+    span {
+      color: #A31621;
+    }
+  }
+
+  h4,
+  p {
+    color: #A6A2A2;
+    text-shadow: 0 1px 1px;
+  }
+}
+
 .contact-content {
   display: flex;
   padding-top: 3.5rem;
 
   .left-contact {
-    flex: 2
+    flex: 2;
+
+    h4 {
+      margin-top: 1rem;
+      font-size: 2rem;
+    }
+
+    p {
+      margin: 1rem 0;
+      line-height: 2rem;
+    }
   }
+
+  .right-contact {
+    flex: 3;
+    margin-left: 3rem;
+
+    .input-control {
+      margin: 1.5rem 0;
+
+      input,
+      textarea {
+        border-radius: 30px;
+        font-weight: inherit;
+        font-size: inherit;
+        font-family: inherit;
+        padding: .8rem 1.1rem;
+        outline: none;
+        border: none;
+        width: 100%;
+        resize: none;
+        color: #FCF7F8;
+        background-color: #A31621;
+
+      }
+    }
+
+    .input-control2 {
+      display: flex;
+
+      :last-child {
+        margin-left: 1.5rem;
+      }
+    }
+  }
+}
+
+::placeholder {
+  color: #FCF7F8;
 }

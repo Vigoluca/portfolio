@@ -8,26 +8,45 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste aliquid quis deserunt incidunt deleniti unde magnam officia, quae cupiditate tempora magni distinctio possimus neque? Ut dolore dolor esse porro sequi?</p>
       <div class="contact-info">
         <div class="contact-item">
-          <a href="mailto:lvigotti@gmail.com" target= "_blank"><i class="fa-solid fa-envelope"></i>
+          <a href="mailto:lvigotti@gmail.com" target= "_blank"><i class="fa-solid fa-envelope" style="color: #4683ec;"></i>
             <%#= mail_to "", "", class: 'button-social-link' %>
-            Email: lvigotti@gmail.com</a>
+            lvigotti@gmail.com
+          </a>
         </div>
         <div class="contact-item">
-          <a href="https://github.com/Vigoluca" target= "_blank"><i class="fa-brands fa-github"></i>
-            <%#= link_to "", "https://github.com/Vigoluca", target: '_blank', class: 'button-social-link' %>
-            Check my GitHub</a>
+          <a href="https://github.com/Vigoluca" target= "_blank"><i class="fa-brands fa-github" style="color: #000000;"></i>
+            Check my GitHub
+          </a>
         </div>
         <div class="contact-item">
-          <a href="https://www.linkedin.com/in/luca-vigotti/" target= "_blank"><i class="fa-brands fa-linkedin"></i>
-            <%#= link_to "", "https://www.linkedin.com/in/luca-vigotti/", ', class: 'button-social-link' %>
-            Let's connect</a>
+          <a href="https://www.linkedin.com/in/luca-vigotti/" target= "_blank"><i class="fa-brands fa-linkedin" style="color: #0a66c2;"></i>
+            Let's connect
+          </a>
         </div>
         <div class="contact-item">
-          <i class="fa-solid fa-envelope"></i>
-          Email
+          <i class="fa-solid fa-phone" style="color: #22b305;"></i>
+          05068618263
         </div>
       </div>
     </div>
-    <div class="right-contact"></div>
+    <div class="right-contact">
+      <form action="" class="contact-form">
+        <div class="input-control input-control2">
+          <input type="text" required placeholder="Your Name">
+          <input type="text" required placeholder="Your Email">
+        </div>
+        <div class="input-control">
+          <input type="text" required placeholder="Subject">
+        </div>
+        <div class="input-control">
+          <textarea name="" id="" cols="15" rows="8" placeholder="Type your message..."></textarea>
+        </div>
+        <div class="main-btn">
+          <a href="#">
+            <span class="btn-text">Submit <i class="fa-sharp fa-solid fa-paper-plane"></i></span>
+          </a>
+        </div>
+      </form>
+    </div>
   </div>
 </div>
