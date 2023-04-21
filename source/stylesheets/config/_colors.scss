@@ -14,10 +14,19 @@ $light-gray: #F4F4F4;
   --color-bg: #FCF7F8;
   --color-text: #A6A2A2;
   --color-red: #A31621;
+  --color-red2: #570000;
   --color-btn-bg: #CED3DC;
-  --color-black: black;
+  --color-card-p: black;
 }
 
 .dark {
-  background-color: #0E0000;
+  --color-bg: #191825;
+  --color-text: #CED3DC;
+  --color-red: #00EAD3;
+  --color-btn-bg: white;
+  --color-card-p: white;
+
+  .fa-github {
+    color: #F4F4F4;
+  }
 }

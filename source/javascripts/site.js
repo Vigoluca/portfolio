@@ -14,5 +14,13 @@ const bodySection = document.querySelectorAll('.main-content');
   });
   document.querySelector(".dark-mode").addEventListener("click", () => {
     document.body.classList.toggle("dark");
-  })
+  });
 })();
+
+document.querySelector('.dark-mode').addEventListener('click', changeIcon);
+
+function changeIcon(e) {
+  const tgt = e.target.firstElementChild;
+  tgt.classList.toggle('fa-sun');
+  tgt.classList.toggle('fa-moon');
+}

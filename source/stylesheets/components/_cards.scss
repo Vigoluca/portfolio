@@ -1,7 +1,7 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px 15px;
+  gap: 15px 15px;
 
 }
 
@@ -26,7 +26,9 @@
   }
 }
 
-
+.dark .card-product {
+  box-shadow: 0px 4px 14px var(--color-text);
+}
 
 .card-product img {
   height: 65%;
@@ -50,7 +52,7 @@
   opacity: .7;
   margin-bottom: 0;
   margin-top: 8px;
-  color: var(--color-black);
+  color: var(--color-card-p);
   text-align: center;
 }
 

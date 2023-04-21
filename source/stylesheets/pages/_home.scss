@@ -135,6 +135,10 @@ section {
   }
 }
 
+.dark .control {
+  box-shadow: 0 4px 14px var(--color-text);
+}
+
 .dark-mode {
   top: 6%;
   right: 3%;
