@@ -19,6 +19,19 @@
   }
 }
 
+.title-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  .home-btn {
+    font-size: 30px;
+    margin-top: 17px;
+    margin-left: 6px;
+  }
+}
+
 .contact-content {
   display: flex;
   padding-top: 3.5rem;
