@@ -29,6 +29,12 @@
     font-size: 30px;
     margin-top: 17px;
     margin-left: 6px;
+
+
+    & :hover {
+      background-color: none;
+      color: var(--color-red);
+    }
   }
 }
 

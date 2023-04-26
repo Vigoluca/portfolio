@@ -17,8 +17,13 @@ body {
 a {
   display: inline-block;
   text-decoration: none;
-  color: inherit;
   font-family: inherit;
+  color: var(--color-text);
+
+}
+
+a:hover {
+  color: var(--color-red);
 }
 
 header {
