@@ -46,4 +46,4 @@ setInterval(() => {
 
   changeToFunkyColor(hello);
   changeGreeting(hello);
-}, 250);
+}, 400);
