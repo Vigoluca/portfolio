@@ -30,21 +30,22 @@
       </div>
     </div>
     <div class="right-contact">
-      <form action="" class="contact-form">
+      <form action="https://formsubmit.co/lvigotti@gmail.com" method="POST" class="contact-form">
         <div class="input-control input-control2">
-          <input type="text" required placeholder="Your Name">
-          <input type="text" required placeholder="Your Email">
+          <input type="text" name="name" required placeholder="Your Name">
+          <input type="email" name="email" required placeholder="Your Email">
+          <%# <input type="hidden" name="_next" value="https://luca-vigotti-portfolio.netlify.app/thanks.html" target="_blank"> %>
         </div>
         <div class="input-control">
-          <input type="text" required placeholder="Subject">
+          <input type="text" name="subject" required placeholder="Subject">
         </div>
         <div class="input-control">
-          <textarea name="" id="" cols="15" rows="8" placeholder="Type your message..."></textarea>
+          <textarea name="message" id="" cols="15" rows="8" placeholder="Type your message..."></textarea>
         </div>
         <div class="main-btn">
-          <a href="#">
+          <button type="submit" target="_blank">
             <span class="btn-text">Submit <i class="fa-sharp fa-solid fa-paper-plane"></i></span>
-          </a>
+          </button>
         </div>
       </form>
     </div>
