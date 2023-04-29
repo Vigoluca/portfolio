@@ -87,10 +87,103 @@
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
     grid-template-columns: 1fr;
+    margin-bottom: 6rem;
+
+    .card-product {
+      width: 100%;
+    }
   }
 
-  .external-link {
-    opacity: 1;
+  #home {
+    padding: 0px !important;
+  }
+
+  .top-left {
+    .top-left-shape {
+      width: 200% !important;
+      height: 41vh !important;
+      top: 0 !important;
+    }
+
+    #profile-picture {
+      margin-left: 1rem !important;
+
+      img {
+        width: 97% !important;
+        height: 22% !important;
+        position: absolute;
+        top: 3rem;
+        left: 50%;
+      }
+    }
+  }
+
+  .top-right {
+    margin-left: -8rem !important;
+
+    .download-btn {
+      margin-left: 3rem !important;
+    }
+  }
+
+  .dark-mode {
+    top: 1% !important;
+    width: 45px !important;
+    height: 45px !important;
+
+    i {
+      font-size: 1.2rem !important;
+    }
+  }
+
+  .controls {
+    position: fixed;
+    z-index: 10;
+    top: auto !important;
+    bottom: 0 !important;
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-evenly !important;
+    display: flex;
+    left: 9%;
+    width: 80%;
+  }
+
+  .section {
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1rem 1rem !important;
+  }
+
+  .logos {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1rem 0rem !important;
+    margin-bottom: 7rem !important;
+
+    img {
+      margin-left: 50px !important;
+    }
+  }
+
+  .right-contact {
+
+    .input-control {
+      display: flex;
+      flex-direction: column !important;
+      margin: 0.5rem 0px !important;
+
+      input {
+        margin: 0.5rem 0 !important;
+      }
+    }
+
+    button {
+      margin-top: 1rem !important;
+    }
   }
 }
 
@@ -98,10 +191,103 @@
 @media (min-width: 576px) {
   .cards {
     grid-template-columns: 1fr;
+    margin-bottom: 6rem;
+
+    .card-product {
+      width: 100%;
+    }
   }
 
-  .external-link {
-    opacity: 1;
+  #home {
+    padding: 0px !important;
+  }
+
+  .top-left {
+    .top-left-shape {
+      width: 200% !important;
+      height: 41vh !important;
+      top: 0 !important;
+    }
+
+    #profile-picture {
+      margin-left: 1rem !important;
+
+      img {
+        width: 97% !important;
+        height: 22% !important;
+        position: absolute;
+        top: 3rem;
+        left: 50%;
+      }
+    }
+  }
+
+  .top-right {
+    margin-left: -8rem !important;
+
+    .download-btn {
+      margin-left: 3rem !important;
+    }
+  }
+
+  .dark-mode {
+    top: 1% !important;
+    width: 45px !important;
+    height: 45px !important;
+
+    i {
+      font-size: 1.2rem !important;
+    }
+  }
+
+  .controls {
+    position: fixed;
+    z-index: 10;
+    top: auto !important;
+    bottom: 0 !important;
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-evenly !important;
+    display: flex;
+    left: 9%;
+    width: 80%;
+  }
+
+  .section {
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1rem 1rem !important;
+  }
+
+  .logos {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1rem 0rem !important;
+    margin-bottom: 7rem !important;
+
+    img {
+      margin-left: 50px !important;
+    }
+  }
+
+  .right-contact {
+
+    .input-control {
+      display: flex;
+      flex-direction: column !important;
+      margin: 0.5rem 0px !important;
+
+      input {
+        margin: 0.5rem 0 !important;
+      }
+    }
+
+    button {
+      margin-top: 1rem !important;
+    }
   }
 }
 
