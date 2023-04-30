@@ -113,7 +113,7 @@
         width: 150px !important;
         height: 150px !important;
         position: absolute;
-        top: 3rem !important;
+        top: 2rem !important;
         left: 67%;
       }
     }
@@ -123,7 +123,7 @@
     margin-left: -8rem !important;
 
     h2 {
-      margin-top: 1rem !important;
+      margin-top: 3rem !important;
     }
 
     .download-btn {
@@ -354,7 +354,7 @@
 }
 
 // // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .cards {
     grid-template-columns: 1fr 1fr;
   }
@@ -377,14 +377,14 @@
         width: 270px !important;
         height: 248px !important;
         position: absolute;
-        top: 5rem;
+        top: 1rem;
         left: 63%;
       }
     }
   }
 
   .top-right {
-    margin-left: -13rem !important;
+    margin-left: -16rem !important;
 
     h2 {
       font-size: 2rem !important;
