@@ -114,7 +114,7 @@
         height: 150px !important;
         position: absolute;
         top: 3rem;
-        left: 60%;
+        left: 70%;
       }
     }
   }
@@ -174,7 +174,21 @@
     }
   }
 
+  .contact-content {
+    display: flex;
+    padding-top: 3.5rem;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+
+    h4 {
+      text-align: center !important;
+    }
+
+  }
+
   .right-contact {
+    margin-bottom: 9rem !important;
+    margin-left: 4.5rem !important;
 
     .input-control {
       display: flex;
@@ -186,9 +200,28 @@
       }
     }
 
-    button {
-      margin-top: 1rem !important;
+  }
+
+  .contact-info {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    .github {
+      padding-right: 1rem !important;
     }
+
+    .linkedin {
+      padding-right: 3rem !important;
+    }
+
+    .phone {
+      padding-right: 2.5rem !important;
+    }
+  }
+
+  button {
+    margin-top: 1rem !important;
   }
 
   .contact-container {
