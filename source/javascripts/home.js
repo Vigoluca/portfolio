@@ -7,7 +7,7 @@ const changeToFunkyColor = (domElement) => {
 }
 const changeGreeting = (domElement) => {
   const saluti = ["Hello", "Ciao", "こんにちは", "Hola", "Bonjour",
-    "ਸਤ ਸ੍ਰੀ ਅਕਾਲ", "你好", "Hallo", "Kamusta", "Γειά σου", "سلام"]
+    "ਸਤ ਸ੍ਰੀ ਅਕਾਲ", "你好", "Hallo", "Kamusta", "Γειά σου", "سلام"];
 
   domElement.innerHTML = saluti[Math.floor(Math.random() * saluti.length)];
 }
@@ -19,4 +19,4 @@ setInterval(() => {
 
   changeToFunkyColor(hello);
   changeGreeting(hello);
-}, 400);
+}, 500);
