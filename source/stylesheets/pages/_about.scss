@@ -21,12 +21,15 @@
     text-align: justify;
     transition: all .4s ease-in-out;
     text-shadow: 0 1px 1px;
+    // width: 80%;
   }
 }
 
 .about {
   color: var(--color-text);
   text-shadow: 0 1px 1px;
+  // display: flex;
+  // justify-content: center;
 }
 
 .skills {
@@ -48,9 +51,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-  gap: 2rem 10rem;
+  gap: 4rem 10rem;
   justify-content: space-evenly;
   transition: all .4s ease-in-out;
+  margin: 2rem auto;
 
   img {
     width: 80px;
