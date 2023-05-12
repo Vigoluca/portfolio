@@ -42,6 +42,16 @@
   display: flex;
   padding-top: 3.5rem;
 
+  .github {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .linkedin {
+    margin-bottom: 2rem;
+  }
+
+
   .left-contact {
     flex: 2;
 
@@ -95,4 +105,17 @@
 
 button {
   border: none;
+}
+
+.email,
+.github,
+.linkedin,
+.phone {
+  i {
+    font-size: xx-large;
+  }
+
+  a {
+    font-size: larger;
+  }
 }
