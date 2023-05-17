@@ -1,6 +1,6 @@
 - name: Hidden Nerima
   description: A website to help you discover the hidden gems of Nerima Ward.
-  image: projects/hidden-nerima/hidden-nerima-home.png
+  image: projects/hidden-nerima/hidden-nerima-homepage.png
   url: /hidden-nerima.html
 
 - name: Kotoback
