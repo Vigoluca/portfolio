@@ -7,8 +7,53 @@
     <p>Tokyo is full of less touristy places people usually ignore. Therefore, the goal of the Hidden Nerima project is to give the spotlight to hidden gems found around the Nerima Ward. </p>
   </div>
   <div class= "project-content">
-    <div class="screenshot"></div>
-    <div class="explanation"></div>
+    <div class="step opposite">
+      <div class="screenshot">
+        <%= image_tag 'projects/haunted-tours/haunted-tours-home.gif', alt: "project image" %>
+      </div>
+      <div class="explanation">
+        <p><span>U</span>sers can easily view the available tours from the Homepage. </p>
+      </div>
+    </div>
+    <div class="step reveal">
+      <div class="explanation">
+        <p><span>U</span>sers can check tours pictues from the grave-shaped cards to choose one they're attracted to.</p>
+      </div>
+      <div class="screenshot">
+        <%= image_tag 'projects/haunted-tours/haunted-tours-all-tours.gif', alt: "project image" %>
+      </div>
+    </div>
+    <div class="step reveal opposite">
+      <div class="screenshot">
+        <%= image_tag 'projects/haunted-tours/haunted-tours-lightbox.gif', alt: "project image" %>
+      </div>
+      <div class="explanation">
+        <p><span>L</span>ightboxes allow users to zoom on the pictures and give a better look at the locations.</p>
+      </div>
+    </div>
+    <div class="step reveal">
+      <div class="explanation">
+        <p><span>T</span>our pages display information about the host and the tour. Users can add comments and book a tour on the same page. </p>
+      </div>
+      <div class="screenshot">
+        <%= image_tag 'projects/haunted-tours/haunted-tours-book.gif', alt: "project image" %>
+      </div>
+    </div>
+    <div class="step reveal opposite">
+      <div class="screenshot">
+        <%= image_tag 'projects/haunted-tours/haunted-tours-my-tours.gif', alt: "project image" %>
+      </div>
+      <div class="explanation">
+        <p><span>H</span>osts have access to an additional section where they can add new tours, edit the current one, accept or deny pending participants.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="project-links">
+    <h3>Check the link below if you want to learn more about this project</h3>
+    <a href="https://github.com/MosDeef/hidden-nerima" target= "_blank"><i class="fa-brands fa-github" style="color: var(--color-card-p);"></i>
+    </a>
   </div>
 </div>
 <div class="dark-mode" onclick="changeIcon();">

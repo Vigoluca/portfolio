@@ -32,6 +32,13 @@
   }
 }
 
+.project-description {
+  p {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
+
 .project-description,
 .project-content {
   text-align: justify;
@@ -74,6 +81,22 @@
   transform: translateX(0px) !important;
   opacity: 1;
   transition: all 1s ease-in-out;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h3 {
+    margin-top: 4rem;
+  }
+
+  a {
+    margin: 2rem auto;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
 }
 
 // Smallest device
